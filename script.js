@@ -1,4 +1,3 @@
-const arr = [];
 
 const divide = (arr, n) => {
   // Write your code here
@@ -20,5 +19,7 @@ const divide = (arr, n) => {
 	return resultArr;
 };
 
-// const n = prompt("Enter n: ");
+const n = prompt("Enter n: ");
+let input = prompt("Enter Array");
+let arr = input.split(" ").map(Number);
 alert(JSON.stringify(divide(arr, n)));
